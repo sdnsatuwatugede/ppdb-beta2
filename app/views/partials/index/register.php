@@ -116,7 +116,7 @@ $redirect_to = $this->redirect_to;
                                                     </div>
                                                     <div class="col-sm-8">
                                                         <div class="">
-                                                            <div class="dropzone required" input="#ctrl-profil" fieldname="profil"    data-multiple="false" dropmsg="Choose files or drag and drop files to upload"    btntext="Browse" extensions=".jpg,.png,.gif,.jpeg" filesize="3" maximum="1">
+                                                            <div class="dropzone required" input="#ctrl-profil" fieldname="profil"  resizequality="0.7" resizemethod="Contain" data-multiple="false" dropmsg="Choose files or drag and drop files to upload" resizewidth="512" resizeheight="512"  btntext="Browse" extensions=".jpg,.png,.gif,.jpeg" filesize="1" maximum="1">
                                                                 <input name="profil" id="ctrl-profil" required="" class="dropzone-input form-control" value="<?php  echo $this->set_field_value('profil',""); ?>" type="text"  />
                                                                     <!--<div class="invalid-feedback animated bounceIn text-center">Please a choose file</div>-->
                                                                     <div class="dz-file-limit animated bounceIn text-center text-danger"></div>

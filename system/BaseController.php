@@ -163,6 +163,17 @@ class BaseController{
 			"title" => "{{random}}",
 			"extensions" => ".jpg,.png,.gif,.jpeg",
 			"limit" => "1",
+			"filesize" => "1",
+			"returnfullpath" => true,
+			"filenameprefix" => "",
+			"uploadDir" => "uploads/files/"
+		);
+	
+
+		$this->file_upload_settings['profil'] = array(
+			"title" => "{{random}}",
+			"extensions" => ".jpg,.png,.gif,.jpeg",
+			"limit" => "1",
 			"filesize" => "3",
 			"returnfullpath" => true,
 			"filenameprefix" => "",
