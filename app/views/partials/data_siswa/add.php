@@ -96,7 +96,7 @@ $redirect_to = $this->redirect_to;
                                                         <div class="form-group col-md-6">
                                                             <label class="control-label" for="nik_siswa">Nik Siswa <span class="text-danger">*</span></label>
                                                             <div id="ctrl-nik_siswa-holder" class=""> 
-                                                                <input id="ctrl-nik_siswa"  value="<?php  echo $this->set_field_value('nik_siswa',""); ?>" type="number" placeholder="Nik Siswa" min="1111111111111111" step="1"  required="" name="nik_siswa"  class="form-control " />
+                                                                <input id="ctrl-nik_siswa"  value="<?php  echo $this->set_field_value('nik_siswa',""); ?>" type="number" placeholder="Nik Siswa" min="1111111111111111" max="9999999999999999" step="1"  required="" name="nik_siswa"  class="form-control " />
                                                                 </div>
                                                             </div>
                                                             <div class="form-group col-md-6">
@@ -295,7 +295,7 @@ $redirect_to = $this->redirect_to;
                                                                                                             <div class="form-group col-md-6">
                                                                                                                 <label class="control-label" for="nik_ayah">Nik Ayah <span class="text-danger">*</span></label>
                                                                                                                 <div id="ctrl-nik_ayah-holder" class=""> 
-                                                                                                                    <input id="ctrl-nik_ayah"  value="<?php  echo $this->set_field_value('nik_ayah',""); ?>" type="number" placeholder="Nik Ayah" min="1111111111111111" step="1"  required="" name="nik_ayah"  class="form-control " />
+                                                                                                                    <input id="ctrl-nik_ayah"  value="<?php  echo $this->set_field_value('nik_ayah',""); ?>" type="number" placeholder="Nik Ayah" min="1111111111111111" max="9999999999999999" step="1"  required="" name="nik_ayah"  class="form-control " />
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                                 <div class="form-group col-md-6">
@@ -399,7 +399,7 @@ $redirect_to = $this->redirect_to;
                                                                                                                     <div class="form-group col">
                                                                                                                         <label class="control-label" for="nik_ibu">Nik Ibu <span class="text-danger">*</span></label>
                                                                                                                         <div id="ctrl-nik_ibu-holder" class=""> 
-                                                                                                                            <input id="ctrl-nik_ibu"  value="<?php  echo $this->set_field_value('nik_ibu',""); ?>" type="number" placeholder="Nik Ibu" min="1111111111111111" step="1"  required="" name="nik_ibu"  class="form-control " />
+                                                                                                                            <input id="ctrl-nik_ibu"  value="<?php  echo $this->set_field_value('nik_ibu',""); ?>" type="number" placeholder="Nik Ibu" min="1111111111111111" max="9999999999999999"  step="1"  required="" name="nik_ibu"  class="form-control " />
                                                                                                                             </div>
                                                                                                                         </div>
                                                                                                                         <div class="form-group col-md-6">
